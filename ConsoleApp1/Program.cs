@@ -11,7 +11,9 @@ namespace ConsoleApp1
             Console.Write("2.szám:");
             var maso = int.Parse(Console.ReadLine());
 
+            Console.WriteLine($"A {Math.Max(elso, maso)} a nagyobb.");
 
+            Console.ReadKey();
            
         }
     }
